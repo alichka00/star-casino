@@ -1,0 +1,815 @@
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+@import url("https://v1.fontapi.ir/css/SFProDisplay:400;600");
+@import url("https://db.onlinewebfonts.com/c/ac187c52eeff516225fc35f138f225fc?family=PP+Telegraf+UltraBold");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  background-color: #f0f0f0;
+}
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 180px;
+}
+
+.def_btn {
+  font-weight: 600;
+  font-size: 20px;
+  padding: 26px 30px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+  border: 0;
+  transition: all 0.3s linear;
+}
+
+.hero {
+  position: relative;
+  background-image: url(/images/view-game-gambling-table-casino\ 1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color: #ffffff;
+  margin-bottom: 100px;
+}
+
+.hero header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  backdrop-filter: blur(10px);
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px;
+}
+
+.menu_list {
+  display: flex;
+  align-items: center;
+  gap: 0 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0 7px;
+}
+
+.logo span {
+  font-family: "Potta One", sans-serif;
+  font-size: 40px;
+  color: #ffea2e;
+}
+
+.info_title {
+  font-family: "PP Telegraf UltraBold", sans-serif;
+  font-size: 76px;
+  max-width: 690px;
+  margin-bottom: 40px;
+  padding-top: 180px;
+  line-height: 100%;
+}
+
+.info_text {
+  max-width: 615px;
+  line-height: 160%;
+  margin-bottom: 40px;
+}
+
+.info_btn {
+  background-color: #ffea2e;
+}
+
+.info_btn:hover {
+  background-color: #ffcc00;
+}
+
+/* #ABOUT SECTION */
+
+.about {
+  margin-bottom: 150px;
+}
+
+.about_title {
+  font-family: "PP Telegraf UltraBold", sans-serif;
+  padding-bottom: 48px;
+  font-size: 48px;
+}
+
+.about_inner {
+  display: grid;
+  grid-template-columns: minmax(300px, 615px) 1fr;
+  grid-template-rows: auto auto;
+  gap: 72px 60px;
+}
+
+.about_desc_left {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  line-height: 160%;
+}
+
+.about_img_right {
+  display: flex;
+  gap: 60px;
+  flex-direction: row;
+  align-items: end;
+}
+
+.about_img_left {
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper_about_desc_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  line-height: 160%;
+}
+
+.about_btn {
+  background-color: #962eff;
+  color: #ffffff;
+}
+
+.about_btn:hover {
+  background-color: #8116ed;
+}
+
+/* #ROOM SECTION */
+
+.room {
+  margin-bottom: 312px;
+}
+
+.room_title {
+  font-family: "PP Telegraf UltraBold", sans-serif;
+  font-size: 48px;
+  padding-bottom: 40px;
+}
+
+.wrapper_blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 48px 60px;
+  padding-top: 48px;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: space-between;
+  max-width: 750px;
+  padding: 48px;
+  background-color: #ffffff;
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+
+.block_title {
+  font-family: "PP Telegraf UltraBold", sans-serif;
+  font-size: 32px;
+  padding-bottom: 32px;
+}
+
+#title_id {
+  color: #962eff;
+}
+
+.collage {
+  display: grid;
+  grid-template-areas:
+    "img1 img2"
+    "img3 img3";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 2fr 3fr;
+  gap: 32px;
+  margin: 0 auto;
+}
+
+.collage img:nth-child(1) {
+  grid-area: img1;
+}
+
+.collage img:nth-child(2) {
+  grid-area: img2;
+}
+
+.collage img:nth-child(3) {
+  grid-area: img3;
+}
+
+.collage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* #ADVANTAGES */
+
+.advantages {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  height: 400px;
+  margin-bottom: 180px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.advantages::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(
+      circle,
+      rgba(0, 0, 0, 0.4) 20%,
+      rgba(0, 0, 0, 0.7) 100%
+    ),
+    url(/images/view-roulette-game-casino.jpg) center/cover no-repeat;
+  filter: blur(5px);
+  z-index: 1;
+}
+
+.advantages_desc {
+  position: relative;
+  z-index: 2;
+  max-width: 751px;
+  color: #ffffff;
+  line-height: 160%;
+}
+
+.advantages_title {
+  font-family: "PP Telegraf UltraBold", sans-serif;
+  font-size: 48px;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+
+/* # CASINO GAMES */
+
+.casino_games {
+  margin-bottom: 140px;
+}
+
+.game_title {
+  font-family: "PP Telegraf UltraBold", sans-serif;
+  font-size: 48px;
+  padding-bottom: 48px;
+}
+
+.casino_games_blocks {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(345px, 1fr));
+  gap: 60px;
+  padding-bottom: 60px;
+}
+
+.casino_games_blocks .block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 32px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #ffffff;
+}
+
+.block .title_block {
+  font-family: "PP Telegraf UltraBold", sans-serif;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta button {
+  background-color: #962eff;
+}
+
+.cta button:hover {
+  background-color: #8116ed;
+}
+
+/* # CONTACT FORM */
+
+.contact {
+  background-image: url(/images/12695.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 140px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.form {
+  max-width: 735px;
+  height: 735px;
+  padding: 85px 70px;
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.4) 20%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
+  backdrop-filter: blur(10px); /* Розмиття фону */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Тінь для кращого вигляду */
+  color: #ffffff;
+}
+
+.form_title {
+  font-family: "PP Telegraf UltraBold", sans-serif;
+  font-size: 48px;
+  padding-bottom: 48px;
+}
+
+.form input,
+.form textarea {
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.19);
+  width: 100%;
+  margin-bottom: 24px;
+  padding: 20px;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  outline: none;
+  color: #ffffff;
+}
+
+.form input::placeholder,
+textarea::placeholder {
+  color: #cbcbcb;
+}
+
+.form input {
+  height: 72px;
+}
+
+.form textarea {
+  height: 173px;
+  resize: none;
+}
+
+.form button {
+  padding: 26px 38px;
+  background: #ffea2e;
+}
+
+.form button:hover {
+  background: #ffcc00;
+}
+
+footer {
+  background-color: #1b1b1b;
+  color: #cbcbcb;
+}
+
+.footer_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 0 45px;
+  color: #ffffff;
+}
+
+.footer_info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 53px;
+}
+
+.footer_info p {
+  max-width: 749px;
+}
+
+.footer_info .note {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.note p {
+  color: #ffffff;
+}
+
+/* #BURGER */
+
+.burger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 24px;
+}
+
+.burger span {
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 3px;
+  transition: transform 0.3s, opacity 0.3s;
+}
+
+.burger-toggle {
+  display: none;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    padding: 0 80px;
+  }
+  .info_title {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .container {
+    padding: 0 60px;
+  }
+  .info_title {
+    font-size: 64px;
+    max-width: 600px;
+    margin-bottom: 24px;
+    padding-top: 90px;
+  }
+  .info_text {
+    max-width: 600px;
+    line-height: 145%;
+    margin-bottom: 40px;
+  }
+  .def_btn {
+    padding: 24px 26px;
+    font-size: 18px;
+  }
+  .about_inner {
+    grid-template-columns: 1fr 1fr;
+  }
+  .wrapper_about_desc_right {
+    line-height: 140%;
+  }
+  .about_desc_left {
+    gap: 10px;
+    line-height: 140%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header_inner,
+  .footer_top,
+  .footer_info {
+    font-size: 18px;
+  }
+  .info_title {
+    padding-top: 80px;
+  }
+  .about_inner {
+    gap: 40px;
+  }
+  .about_img_right {
+    gap: 25px;
+    align-items: center;
+  }
+  .room {
+    margin-bottom: 155px;
+  }
+  .wrapper_blocks {
+    gap: 35px;
+  }
+  .collage {
+    gap: 15px;
+  }
+  .footer_info {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .footer_info p {
+    max-width: 100%;
+  }
+  .note {
+    justify-content: end;
+  }
+}
+
+@media (max-width: 768px) {
+  .def_btn {
+    font-size: 16px;
+  }
+  .info_title {
+    max-width: 450px;
+    font-size: 50px;
+  }
+  .info_text {
+    max-width: 450px;
+  }
+  .about_title,
+  .room_title,
+  .advantages_title,
+  .game_title,
+  .form_title {
+    font-size: 34px;
+  }
+  .block_title {
+    font-size: 28px;
+  }
+  .container {
+    padding: 0 40px;
+  }
+  .hero {
+    background-size: cover;
+  }
+  .about_inner {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .about_img_right {
+    align-items: normal;
+  }
+
+  .about img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .wrapper_blocks {
+    grid-template-columns: 1fr;
+  }
+  .casino_games_blocks {
+    gap: 40px;
+  }
+  .logo {
+    max-width: 180px;
+  }
+  .logo span {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .menu_list {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 424px) {
+  body {
+    font-size: 16px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  .def_btn {
+    padding: 15px;
+    font-size: 12px;
+  }
+  .header_inner {
+    min-height: 80px;
+  }
+  .info_title {
+    font-size: 35px;
+    max-width: 340px;
+    padding-top: 50px;
+  }
+  .about_title,
+  .room_title,
+  .advantages_title,
+  .game_title,
+  .form_title {
+    font-size: 24px;
+  }
+  .hero {
+    margin-bottom: 35px;
+  }
+  .about {
+    margin-bottom: 55px;
+  }
+  .room,
+  .advantages {
+    margin-bottom: 60px;
+  }
+  .casino_games {
+    margin-bottom: 90px;
+  }
+  .casino_games_blocks {
+    padding-bottom: 45px;
+  }
+  .contact {
+    margin-bottom: 100px;
+  }
+  .about_inner,
+  .about_img_right {
+    gap: 20px;
+  }
+  .wrapper_blocks {
+    padding-top: 30px;
+  }
+  .block {
+    gap: 25px;
+    padding: 25px;
+  }
+  .block_title {
+    padding-bottom: 25px;
+  }
+  .casino_games .block {
+    padding: 25px;
+  }
+  .casino_games_blocks {
+    gap: 25px;
+  }
+  .form {
+    height: 650px;
+    padding: 60px 40px;
+  }
+  .form input,
+  .form textarea {
+    font-size: 16px;
+    padding: 15px;
+    margin-bottom: 30px;
+  }
+  .form input {
+    height: auto;
+  }
+  .form button {
+    padding: 20px 30px;
+  }
+  .about_title,
+  .room_title,
+  .advantages_title,
+  .game_title {
+    padding-bottom: 20px;
+  }
+  .header_inner,
+  .footer_top,
+  .footer_info {
+    font-size: 16px;
+  }
+  .footer_top {
+    padding: 30px 0px;
+  }
+  .footer_info {
+    padding-bottom: 30px;
+    gap: 0;
+  }
+
+  .menu {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background: radial-gradient(
+      circle,
+      rgba(150, 46, 255, 0.4) 0%,
+      rgba(0, 0, 0, 0.9) 70%
+    );
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100%;
+    padding: 20px;
+    color: #ffea2e;
+  }
+
+  .menu_list {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .burger-toggle:checked ~ .menu {
+    display: block;
+  }
+
+  .burger-toggle:checked + .burger span:nth-child(1) {
+    transform: translateY(10px) rotate(45deg);
+  }
+
+  .burger-toggle:checked + .burger span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger-toggle:checked + .burger span:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+  }
+}
+
+@media (max-width: 320px) {
+  .info_title {
+    font-size: 25px;
+  }
+  .about_title,
+  .room_title,
+  .advantages_title,
+  .game_title {
+    padding-bottom: 10px;
+  }
+  .about_inner,
+  .about_img_right {
+    gap: 10px;
+  }
+  .wrapper_blocks {
+    gap: 25px;
+  }
+  .block_title {
+    padding-bottom: 15px;
+    font-size: 20px;
+  }
+  .collage {
+    gap: 10px;
+  }
+  .casino_games,
+  .contact {
+    margin-bottom: 70px;
+  }
+  .casino_games_blocks {
+    grid-template-columns: 1fr;
+  }
+  .block .title_block {
+    font-size: 20px;
+    padding-bottom: 15px;
+  }
+  .form {
+    padding: 40px 25px;
+    height: auto;
+  }
+  .form_title {
+    padding-bottom: 35px;
+  }
+  .form input,
+  .form textarea {
+    padding: 10px;
+    margin-bottom: 25px;
+  }
+  .form button {
+    padding: 15px 25px;
+  }
+  .about_title,
+  .room_title,
+  .advantages_title,
+  .game_title,
+  .form_title {
+    font-size: 20px;
+  }
+}
